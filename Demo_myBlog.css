@@ -1,0 +1,251 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	font-family: "Raleway", sans-serif;
+	line-height: 1.5;
+}
+
+.clear {
+	clear: both;
+}
+
+#trai, #phai {
+	width: 15%;
+	height: 1px;
+	float: left;
+}
+
+#giua {
+	width: 70%;
+	float: left;
+}
+
+/*Header*/
+header {
+	padding: 32px 16px;
+	text-align: center;
+}
+
+header h1 {
+	font-weight: 600;
+	font-size: 36px;
+	margin: 10px 0;
+}
+
+header p {
+	margin: 15px 0;
+	opacity: 0.8;
+	font-size: 15px;
+}
+
+header p .date {
+	background-color: black;
+	color: white;
+	padding: 0 8px;
+}
+
+/*Main*/
+main .content_left {
+	width: calc((100% / 3) * 2);
+	float: left;
+}
+
+main .detail {
+	margin: 16px;
+	box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 
+	0 4px 20px 0 rgb(0 0 0 / 19%);
+}
+
+main .detail img {
+	width: 100%;
+}
+
+main .title{
+	padding: 0.15px 16px;
+}
+
+main .content {
+	padding: 0.15px 40px 0.15px 16px;
+	text-align: justify;
+}
+
+main .detail h3 {
+	margin: 10px 0;
+	font-size: 24px;
+	font-weight: 500;
+}
+
+main .detail h5	 {
+	margin: 10px 0;
+	font-size: 18px;
+	font-weight: 500;
+	opacity: 0.9;
+}
+
+main .detail .date {
+	opacity: 0.4;
+}
+
+main .content p {
+	margin: 15px 0;
+	font-size: 15px;
+	opacity: 0.9;
+}
+
+main .content_footer_left {
+	width: 70%;
+	margin: 15px 0;
+	float: left;
+}
+
+main .content_footer_left button {
+	padding: 12px 24px;
+	background: #fff;
+	border: 1px solid #ccc!important;
+	font-weight: 600;
+	font-size: 15px;
+}
+
+
+main .content_footer_right {
+	width: 30%;
+	float: left;
+	height: 73px;
+}
+
+main .content_footer_right .comment
+{
+	padding: 15px 24px;
+	display: inline-block;
+	margin-left: calc(100% - 160px);
+	margin-top: 19px;
+}
+
+main .content_footer_right .comment_numer {
+	display: inline-block;
+	background-color: black;
+	color: white;
+	padding: 0 8px;
+	font-size: 15px;
+	line-height: 22px;
+}
+/*MAIN RIGHT*/
+main .content_right {
+	width: calc(100% / 3);
+	float: left;
+}
+
+main .content_right .information {
+	margin: 16px;
+	box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 
+	0 4px 20px 0 rgb(0 0 0 / 19%);
+}
+
+main .information img {
+	width: 100%;
+}
+
+main .right_content {
+	padding: 0.15px 16px;
+}
+
+main .information #heading {
+	margin: 10px 0;
+	font-weight: bold;
+	opacity: 1;
+}
+
+main .information p {
+	margin: 15px 0;
+	width: 100%;
+}
+
+main .content_right .heading_right {
+	padding: 8px 16px;
+	background-color: #f1f1f1;
+}
+
+main .content_right h4 {
+	font-size: 20px;
+	margin: 10px 0;
+	opacity: 0.6;
+	font-weight: 500;
+}
+
+main .content_right li {
+	padding: 16px;
+	list-style: none;
+	height: 82px;
+	border-bottom: 1px solid #ccc;
+}
+
+main .content_right li:last-child {
+	border-bottom: none;
+}
+
+main .content_right li:hover {
+	background-color: #ccc;
+}
+
+main .content_right .bosuutap {
+	width: 50px;
+	margin-right: 16px;
+	float: left;
+}
+
+main .content_right span {
+	display: inline-block;
+}
+
+
+.tieude {
+	font-size: 18px;
+	opacity: 0.9;
+}
+
+.noidung {
+	font-size: 15px;
+	opacity: 0.7;
+}
+
+
+main .ketbai {
+	padding: 0.15px 16px;
+}
+
+main .game {
+	padding: 0 8px;
+	margin-bottom: 16px;
+	background-color: #f1f1f1;
+}
+
+/*FOOTER*/
+
+footer {
+	height: 200px;
+	background-color: #616161;
+	padding: 32px 16px;
+	margin-top: 16px;
+}
+
+footer button {
+	background-color: black;
+	color: white;
+	padding: 12px 24px;
+	margin-bottom: 16px;
+	border: none;
+}
+
+
+
+
+
+
+
+
+
+
